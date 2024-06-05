@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="false"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="User should add request body for Add new address &quot;&lt;first_name&gt;&quot;, &quot;&lt;last_name&gt;&quot;, &quot;&lt;mobile&gt;&quot;, &quot;&lt;apartment&gt;&quot;, &quot;&lt;state&gt;&quot;, &quot;&lt;city&gt;&quot;, &quot;&lt;country&gt;&quot;, &quot;&lt;zipcode&gt;&quot;, &quot;&lt;address&gt;&quot; and &quot;&lt;address_type&gt;&quot;"/>
+		<list key="findhistory">
+			<item value="C:\\Users\\sathish\\OneDrive\\Pictures\\profile pic4.png"/>
+			<item value="User should add request body for Add new address &quot;&lt;first_name&gt;&quot;, &quot;&lt;last_name&gt;&quot;, &quot;&lt;mobile&gt;&quot;, &quot;&lt;apartment&gt;&quot;, &quot;&lt;state&gt;&quot;, &quot;&lt;city&gt;&quot;, &quot;&lt;country&gt;&quot;, &quot;&lt;zipcode&gt;&quot;, &quot;&lt;address&gt;&quot; and &quot;&lt;address_type&gt;&quot;"/>
+			<item value="User should add headers and bearer authourization for accessing address endpoint"/>
+			<item value="User should add basic authentication for login"/>
+			<item value="And User should add basic authentication for login"/>
+			<item value="Given User should add header"/>
+			<item value="public"/>
+			<item value="maximize"/>
+			<item value="m"/>
+			<item value="QN8V3A"/>
+			<item value="Greens8767"/>
+			<item value="Given User is on the Adactin login page"/>
+			<item value="Then User should verify search hotel error message &quot;Please Select a Location&quot;"/>
+			<item value=" Then User should verify search hotel error message  &quot;Check-In Date shall be before than Check-Out Date&quot;,&quot;Check-Out Date shall be after than Check-In Date&quot;"/>
+			<item value="Then User should verify after search &quot;Select Hotel&quot;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="private"/>
+			<item value="741@85BN"/>
+			<item value="sathishFam"/>
+			<item value="sa"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="745"/>
+		<item key="DIALOG_Y_ORIGIN" value="252"/>
+		<item key="DIALOG_WIDTH" value="507"/>
+		<item key="DIALOG_HEIGHT" value="514"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|10.8|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="200"/>
+		<item key="DIALOG_Y_ORIGIN" value="313"/>
+	</section>
+</section>

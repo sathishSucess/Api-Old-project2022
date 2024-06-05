@@ -1,0 +1,49 @@
+{
+  "page" : 1,
+  "per_page" : 6,
+  "total" : 12,
+  "total_pages" : 2,
+  "data" : [ {
+    "id" : 1,
+    "email" : "cerulean.weaver@reqres.in",
+    "first_name" : "Weaver",
+    "last_name" : "cerulean",
+    "avatar" : "https://reqres.in/img/faces/2-image.jpg"
+  }, {
+    "id" : 2,
+    "email" : "maraven.weaver@reqres.in",
+    "first_name" : "Marven",
+    "last_name" : "jack",
+    "avatar" : "https://reqres.in/img/faces/2-image.jpg"
+  }, {
+    "id" : 3,
+    "email" : "ganei.weaver@reqres.in",
+    "first_name" : "Ganei",
+    "last_name" : "Seker",
+    "avatar" : "https://reqres.in/img/faces/2-image.jpg"
+  }, {
+    "id" : 4,
+    "email" : "sendicate.weaver@reqres.in",
+    "first_name" : "Sendicate",
+    "last_name" : "Sebastin",
+    "avatar" : "https://reqres.in/img/faces/2-image.jpg"
+  }, {
+    "id" : 5,
+    "email" : "bankofindia.weaver@reqres.in",
+    "first_name" : "Sambanker",
+    "last_name" : "Jekin",
+    "avatar" : "https://reqres.in/img/faces/2-image.jpg"
+  }, {
+    "id" : 6,
+    "email" : "rose.weaver@reqres.in",
+    "first_name" : "Rose",
+    "last_name" : "Melenda",
+    "avatar" : "https://reqres.in/img/faces/2-image.jpg"
+  }, {
+    "id" : 7,
+    "email" : "mavenn.weaver@reqres.in",
+    "first_name" : "Mavin",
+    "last_name" : "Marcus",
+    "avatar" : "https://reqres.in/img/faces/2-image.jpg"
+  } ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <parameter name="user" value="sathishFam"></parameter>
+  <parameter name="pass" value="741@85BN"></parameter>
+  <parameter name="location" value="London"></parameter>
+  <parameter name="hotel" value="Hotel Creek"></parameter>
+  <parameter name="room" value="Double"></parameter>
+  <parameter name="roomno" value="8-Eight"></parameter>
+  <parameter name="checkin" value="12/08/2022"></parameter>
+  <parameter name="checkout" value="15/08/2022"></parameter>
+  <parameter name="adultroom" value="3-Three"></parameter>
+  <parameter name="childroom" value="4-Four"></parameter>
+  <parameter name="firstname" value="sathish"></parameter>
+  <parameter name="lastname" value="kumar"></parameter>
+  <parameter name="adress" value="omr balamurgan"></parameter>
+  <parameter name="ccnum" value="1234567891234567"></parameter>
+  <parameter name="cctype" value="VISA"></parameter>
+  <parameter name="expmonth" value="November"></parameter>
+  <parameter name="expyear" value="2022"></parameter>
+  <parameter name="cvv" value="1211"></parameter>
+
+  
+    <classes>
+      <class name="org.testngtask.sabasir.AdactinUsingTestngTool"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,30 @@
+io.cucumber.junit.UndefinedStepException: The step 'User should add header' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User should add header")
+public void userShouldAddHeader() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User should add basic authentication for login")
+public void userShouldAddBasicAuthenticationForLogin() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User should {string} request for login endpoint")
+public void userShouldRequestForLoginEndpoint(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User verify the status code is {int}")
+public void userVerifyTheStatusCodeIs(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("User verify the login response body firstName present as {string} and get the logtoken")
+public void userVerifyTheLoginResponseBodyFirstNamePresentAsAndGetTheLogtoken(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

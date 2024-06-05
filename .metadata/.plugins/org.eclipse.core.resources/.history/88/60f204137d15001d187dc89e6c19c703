@@ -1,0 +1,40 @@
+package org.testngtask.sabasir;
+
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import org.testngtask.sabasir.BaseLib;
+
+public class AdactinUsingTestngTool extends BaseLib {
+	
+	@Parameters({"user","pass","location","hotel"})
+	@Test
+	
+	public void loginPage(@Optional("sathishFam")String useId,String passWord,String Locat,String hotl) {
+			
+		getDriver();
+		enterUrl("http://adactinhotelapp.com/");
+		maximizeWindow();
+		WebElement txtUser = elementFindById("username");
+		elementSendKeys(txtUser, useId);
+		WebElement txtPass = elementFindById("password");
+		elementSendKeys(txtPass, passWord);
+		WebElement btnClick = elementFindById("login");
+		elementClick(btnClick);
+		WebElement txtloc = elementFindById("location");
+		elementSendKeys(txtloc, Locat);
+		WebElement txtHotel = elementFindById("hotels");
+		elementSendKeys(txtHotel, hotl);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

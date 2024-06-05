@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.588">
+    <testcase classname="verifying Amazon login details" name="Verifying Amazon with valid data" time="9.215">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given User is on the Amazon login page......................................passed
+When User should perform login..............................................passed
+Then User should verify after login.........................................pending
+]]></failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,28 @@
+ Scenario Outline: Verifying Adactin Login With Valid Data
+    Given User is on the Adactin Page
+    When User Should Enter "<userName>" and "<password>"
+    And User Should Click Login button
+    Then User Should Verify "Hello Msg"
+    
+    Examples: 
+    | userName   | password |
+| sathishFam | 741@85BN     
+    
+    
+    Scenario Outline: Verifying Adactin Login With Valid Data
+    Given User is on the Adactin Page
+    When User Should Enter "<userName>" and "<password>"
+    And User Should Press Enter Key
+    
+     Examples: 
+    | userName   | password |
+| sathishFam | 741@85BN     
+    Scenario Outline: Verifying Adactin Login With InValid Data
+    Given User is on the Adactin Page
+    When User Should Enter "<userName>" and "<password>"
+    And User Should Click Login button
+    Then User Should Verify "Your Password might have expired Msg"
+    
+     Examples: 
+    | userName   | password |
+    | sathishFam | 741@85B |

@@ -1,0 +1,77 @@
+package com.testngwriteconpart2;
+
+public class BasicAuth {
+
+	
+	
+	
+	String logtoken;
+	Response response;
+	@Test(priority=2)
+	public void addUserAddress() {
+		
+		List<Header> listHeader=new ArrayList<>();
+		Header h1=new Header("accept", "application/json");
+		Header h2=new Header("Authorization", "Bearer "+logtoken);
+		Header h3=new Header("Content-Type", "application/json");
+		listHeader.add(h1);
+		listHeader.add(h2);
+		listHeader.add(h3);
+		
+		Headers headers=new Headers(listHeader);
+		addHeaders(headers);
+		
+		
+		
+	//2.pass the payLoad	
+		
+		AddUserAddress_Input_Pojo address_Input_Pojo=new AddUserAddress_Input_Pojo("Aravinthan", "CK", "9876543210", "gvrpalace", 10, 12, 5, "652314", "23/22 karapakkam", "home");
+		addBody(address_Input_Pojo);
+		
+		
+		//3.ReqType
+		
+		response = requestType("POST","https://omrbranch.com/api/addUserAddress");
+		int statusCode = getStatusCode(response);
+		Assert.assertEquals(statusCode, 200,"verify input statuscode");
+		String asPretty = getAsPretty(response);
+		System.out.println(asPretty);
+		
+		
+	AddUserAddress_Output_Pojo userAddress_Output_Pojo = response.as(AddUserAddress_Output_Pojo.class);
+	String message = userAddress_Output_Pojo.getMessage();
+		Assert.assertEquals(message, "Address added successfully","verify address added successfully");
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	@Test(priority=1)
+	public void login() {
+		addHeader("accept", "application/json");
+		basicAuth("aravinth91195@gmail.com", "Arwint13it5@");
+		Response response = requestType("POST"," https://omrbranch.com/api/postmanBasicAuthLogin");
+int statusCode = getStatusCode(response);
+System.out.println(statusCode);
+
+Assert.assertEquals(statusCode,200,"verify status code");
+
+Login_Output_pojo loginoutput = response.as(Login_Output_pojo.class);
+
+String message = loginoutput.getMessage();
+System.out.println(message);
+Assert.assertEquals(message,"Login successfully","verify get message");
+	
+	 logtoken = loginoutput.data.getLogtoken();
+	 System.out.println(logtoken);
+	 
+	 
+	
+	}
+
+}

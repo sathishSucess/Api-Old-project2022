@@ -1,0 +1,65 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-08-16T13:07:48.387Z",
+    "line" : 3,
+    "name" : "Verifying Amazon with valid data",
+    "description" : "",
+    "id" : "verifying-amazon-login-details;verifying-amazon-with-valid-data",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 5846303200,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "User is on the Amazon login page",
+      "match" : {
+        "location" : "com.datatabel.amzon.StepDefAmzon.user_is_on_the_amazon_login_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 3267273700,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "User should perform login",
+      "match" : {
+        "location" : "com.datatabel.amzon.StepDefAmzon.user_should_perform_login(io.cucumber.datatable.DataTable)"
+      },
+      "rows" : [ {
+        "cells" : [ "Tv", "sony" ]
+      }, {
+        "cells" : [ "Grocery", "vegi" ]
+      }, {
+        "cells" : [ "Android", "redmi" ]
+      }, {
+        "cells" : [ "laptop", "lenova" ]
+      }, {
+        "cells" : [ "Iphone", "13 iphone" ]
+      }, {
+        "cells" : [ "Samsung", "Samsung f23" ]
+      } ],
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "error_message" : "io.cucumber.java.PendingException: TODO: implement me\r\n\tat com.datatabel.amzon.StepDefAmzon.user_should_verify_after_login(StepDefAmzon.java:37)\r\n\tat ✽.User should verify after login(file:///C:/Users/sathish/eclipseAug3/2022/cucumber/src/test/resources/Feature/AmazonWithoutheader.feature:12)\r\n",
+        "status" : "pending"
+      },
+      "line" : 12,
+      "name" : "User should verify after login",
+      "match" : {
+        "location" : "com.datatabel.amzon.StepDefAmzon.user_should_verify_after_login()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "verifying Amazon login details",
+  "description" : "",
+  "id" : "verifying-amazon-login-details",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Feature/AmazonWithoutheader.feature",
+  "tags" : [ ]
+} ]

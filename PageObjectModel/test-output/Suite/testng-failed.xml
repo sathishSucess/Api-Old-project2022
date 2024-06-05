@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="firstname" value="sathish"/>
+    <parameter name="cvv" value="1211"/>
+    <parameter name="cctype" value="VISA"/>
+    <parameter name="roomno" value="8-Eight"/>
+    <parameter name="pass" value="741@85BN"/>
+    <parameter name="ccnum" value="1234567891234567"/>
+    <parameter name="expyear" value="2022"/>
+    <parameter name="adress" value="omr balamurgan"/>
+    <parameter name="room" value="Double"/>
+    <parameter name="lastname" value="kumar"/>
+    <parameter name="checkin" value="12/08/2022"/>
+    <parameter name="adultroom" value="3-Three"/>
+    <parameter name="childroom" value="4-Four"/>
+    <parameter name="expmonth" value="November"/>
+    <parameter name="hotel" value="Hotel Creek"/>
+    <parameter name="location" value="London"/>
+    <parameter name="user" value="sathishFam"/>
+    <parameter name="checkout" value="15/08/2022"/>
+    <classes>
+      <class name="org.testngtask.sabasir.AdactinUsingTestngTool">
+        <methods>
+          <include name="loginPage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.testngtask.sabasir.AdactinUsingTestngTool -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
